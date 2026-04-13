@@ -29,12 +29,18 @@ importers:
 
   apps/web:
     dependencies:
+      '@workspace/backend':
+        specifier: workspace:*
+        version: link:../../packages/backend
       '@workspace/math':
         specifier: workspace:*
         version: link:../../packages/math
       '@workspace/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      convex:
+        specifier: ^1.29.3
+        version: 1.35.1(react@19.2.4)
       next:
         specifier: 16.1.6
         version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -75,6 +81,9 @@ importers:
 
   apps/widget:
     dependencies:
+      '@workspace/backend':
+        specifier: workspace:*
+        version: link:../../packages/backend
       '@workspace/math':
         specifier: workspace:*
         version: link:../../packages/math

@@ -1,5 +1,5 @@
 {
-    "name": "@packages/backend",
+    "name": "@workspace/backend",
     "version": "1.0.0",
     "description": "",
     "scripts": {

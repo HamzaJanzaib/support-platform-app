@@ -2,6 +2,10 @@
     "name": "@workspace/backend",
     "version": "1.0.0",
     "description": "",
+    "type": "module",
+    "exports": {
+        "./*": "./*"
+    },
     "scripts": {
         "dev": "convex dev",
         "setup": "convex dev --until-success",

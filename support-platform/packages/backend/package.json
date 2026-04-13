@@ -4,8 +4,8 @@
     "description": "",
     "type": "module",
     "exports": {
-        "./*": "./*",
-        "./convex/*": "./convex/*"
+        "./convex/_generated/api": "./convex/_generated/api.js",
+        "./*": "./*"
     },
     "scripts": {
         "dev": "convex dev",
